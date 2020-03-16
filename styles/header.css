@@ -87,8 +87,8 @@
       background-repeat: no-repeat;
       width: 40px;
       height: 30px;
-      -webkit-filter: brightness(0) invert(1);
-              filter: brightness(0) invert(1); }
+      -webkit-filter: invert(1);
+              filter: invert(1); }
   .header__title-wrapper {
     top: 389px; }
   .header__action {

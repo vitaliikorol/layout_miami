@@ -11,8 +11,7 @@
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 413px; }
+            justify-content: space-between; }
     .contact__info--right {
       padding-right: 30px; }
 

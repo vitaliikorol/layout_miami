@@ -1,9 +1,11 @@
 .information {
-  line-height: 27px; }
+  line-height: 27px;
+  display: inline-block; }
   .information__title {
     font-size: 14px;
     color: #9fadc2; }
   .information__text {
-    color: black; }
+    color: black;
+    width: 200px; }
 
 /*# sourceMappingURL=information.css.map */
