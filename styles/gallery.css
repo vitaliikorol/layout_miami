@@ -1,0 +1,31 @@
+.gallery__caption {
+  margin: 24px 0 40px; }
+
+.gallery__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 188px;
+  color: #0075ff;
+  background-color: white;
+  border: 2px solid #0075ff;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 21px 0;
+  margin: auto;
+  margin-top: 10px;
+  -webkit-transition: color 0.3s, background 0.3s;
+  transition: color 0.3s, background 0.3s; }
+  .gallery__link:hover {
+    background: #0075ff;
+    color: white;
+    -webkit-box-shadow: 0 13px 27px rgba(0, 83, 181, 0.46);
+            box-shadow: 0 13px 27px rgba(0, 83, 181, 0.46); }
+
+/*# sourceMappingURL=gallery.css.map */

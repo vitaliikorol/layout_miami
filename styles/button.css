@@ -1,0 +1,18 @@
+.button {
+  display: block;
+  color: white;
+  background-color: #0075ff;
+  border: none;
+  -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+          box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+  border-radius: 8px;
+  padding: 21px 106px;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+  cursor: pointer; }
+  .button:hover {
+    background: #0067df;
+    -webkit-box-shadow: 0 13px 27px rgba(0, 83, 181, 0.46);
+            box-shadow: 0 13px 27px rgba(0, 83, 181, 0.46); }
+
+/*# sourceMappingURL=button.css.map */

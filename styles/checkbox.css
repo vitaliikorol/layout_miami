@@ -1,0 +1,36 @@
+.checkbox {
+  display: none; }
+
+.checkbox:checked ~ .header > .container > .nav {
+  display: block;
+  position: absolute;
+  top: 120px; }
+
+.checkbox:checked ~ .header > .container > .heder__menu::before {
+  padding-top: 50px; }
+
+.checkbox:checked ~ .header > .container > .nav > .nav__list {
+  display: block;
+  font-size: 24px; }
+  .checkbox:checked ~ .header > .container > .nav > .nav__list > .nav__item {
+    font-size: 22px;
+    padding: 0;
+    margin-bottom: 32px; }
+    .checkbox:checked ~ .header > .container > .nav > .nav__list > .nav__item--active {
+      background-color: transparent; }
+
+.checkbox:checked ~ .header > .container > .header__title-wrapper {
+  display: none; }
+
+.checkbox:checked ~ .header > .container > .header__top > .header__phone > .header__phone-pic {
+  visibility: hidden; }
+
+.checkbox:checked ~ .header > .container > .header__top > .header__phone > .header__phone-text {
+  display: block;
+  position: absolute;
+  top: 500px; }
+
+.checkbox:checked ~ .header {
+  background: #0075ff; }
+
+/*# sourceMappingURL=checkbox.css.map */

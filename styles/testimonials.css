@@ -1,0 +1,13 @@
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 240px);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+@media screen and (max-width: 800px) {
+  .testimonials {
+    grid-template-columns: 1fr;
+    grid-gap: 48px; } }
+
+/*# sourceMappingURL=testimonials.css.map */
