@@ -13,7 +13,11 @@
         -ms-flex-pack: justify;
             justify-content: space-between; }
     .contact__info--right {
-      padding-right: 30px; }
+      padding-right: 30px;
+      margin-left: 108px; }
+      @media screen and (max-width: 800px) {
+        .contact__info--right {
+          margin-left: 0; } }
 
 @media screen and (max-width: 800px) {
   .contact {
